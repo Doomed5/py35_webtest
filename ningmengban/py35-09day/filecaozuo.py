@@ -1,0 +1,7 @@
+f = open(file='1.txt', mode='a', encoding='utf-8')
+# res = f.read()
+# print(res)
+f.write('python0011')
+res = f.read()
+print(res)
+f.close()
