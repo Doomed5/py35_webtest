@@ -17,7 +17,7 @@ from common.handle_path import DATA_DIR, CONF_DIR, TASTCASES_DIR, LOG_DIR, REPOR
 from common.handle_conf import conf
 
 
-def create_log(name='mylog', level="DEBUG", filename='log.log', sh_level='DEBUG', fh_level="DEBUG"):
+def create_log(name='mylog', level="DEBUG", filename='logs.logs', sh_level='DEBUG', fh_level="DEBUG"):
     # 第一步:创建日志收集器
     log = logging.getLogger(name)
 
